@@ -9,3 +9,7 @@ services:
       - /home/ec2-user/deploy/kdt1-study-3-team2-front/html:/usr/share/nginx/html
     ports:
       - "80:80"
+
+networks:
+  app:
+    driver: bridge
